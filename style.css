@@ -439,7 +439,66 @@ nav {
     margin: 0 auto;
 }
 
+/* Section 4 */
 
+#about-section-4-h2 {
+    text-align: center;
+    margin-bottom: 3.1rem;
+}
 
+.about-section-4-h3 {
+    color: var(--dark-navy)
+}
 
+/* Accordian */
 
+#accordian-1 {
+    margin-bottom: 3rem;
+}
+
+#accordian-2 {
+    margin-bottom: 9rem;
+}
+
+.accordion-item {
+    background-color: var(--snow);
+    border: none;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.accordion-button {
+    margin: 0rem;
+    background-color: var(--snow);
+    color: var(--dark-navy);
+}
+
+.accordion-button:hover {
+    color: var(--dark-navy);
+}
+
+.accordion-button:focus {
+    background-color: var(--snow);
+    border-color: var(--snow);
+    box-shadow: none;
+}
+
+button > h4 {
+    padding: 1rem 1.5rem 0rem 1.5rem;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--dark-navy);
+    box-shadow: none;
+    background-color: var(--snow)
+}
+
+.accordion-body {
+    padding: 0rem 2.7rem 2rem 2.7rem;
+}
+
+/* about.html Section 5 */
+
+#section-5-content > h1 {
+    color: white;
+}
