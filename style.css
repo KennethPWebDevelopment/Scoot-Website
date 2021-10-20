@@ -79,6 +79,10 @@ button:hover {
     background-color: transparent;
 }
 
+.learn-more-btn {
+    margin-left: 0px;
+}
+
 /* Images */
 
 .circle-img {
