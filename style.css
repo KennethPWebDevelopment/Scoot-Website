@@ -98,7 +98,7 @@ button:hover {
 
 #telemetry-img,
 #payments-img {
-  margin: 0rem 3.5rem 0rem 7rem;
+  margin: 0rem 3.5rem 0rem 0rem;
 }
 
 /* Navbar */
@@ -243,6 +243,7 @@ p {
 
 #section-2-imgs {
   position: relative;
+  right: -18%;
   display: flex;
   align-items: flex-start;
 }
@@ -250,7 +251,7 @@ p {
 #downward-arrow {
   position: absolute;
   bottom: -1%;
-  right: -30%;
+  right: -5%;
 }
 
 /* Section 3 */
@@ -315,7 +316,7 @@ p {
 #section4-downward-arrow {
   position: absolute;
   bottom: 46%;
-  right: -95%;
+  right: -75%;
 }
 
 /* Section 5 */
@@ -386,7 +387,7 @@ p {
 #about-section-1-arrow {
   position: absolute;
   bottom: 7%;
-  right: -4%;
+  right: -28%;
 }
 
 /* about.html Section 2 */
@@ -451,12 +452,12 @@ p {
 
 .circle-number {
   background-color: var(--yellow);
+  margin: 0rem auto;
+  border-radius: 5rem;
+  width: 6rem;
+  padding: 2rem;
   position: relative;
-  padding: 9%;
-  border-radius: 50%;
-  bottom: 7%;
-  width: 27%;
-  margin: 0 auto;
+  bottom: 3rem;
 }
 
 /* Section 4 */
@@ -742,6 +743,10 @@ button > h4 {
 
   /* Home Section 2 Tablet */
 
+  #section-2-imgs {
+    right: 0%;
+  }
+
   #section-2-content,
   #section-3-content {
     text-align: center;
@@ -804,5 +809,36 @@ button > h4 {
   #section-5 > .container-fluid > .row > .col-lg-6 {
     display: flex;
     justify-content: center;
+  }
+
+  /* About Header Tablet */
+
+  #about-header {
+    background-image: url("assets/images/about-hero-tablet.jpg");
+    background-size: cover;
+  }
+
+  /* About Section 2 */
+  #about-section-2-circle {
+    right: 87%;
+  }
+
+  #about-section-2-content > h2,
+  #about-section-2-content > p,
+  #about-section-2-content {
+    padding: 0px;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+
+  /* About Section 4 Tablet */
+
+  .about-section-4-h3 {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  #section-5-content > h1 {
+    text-align: center;
   }
 }
