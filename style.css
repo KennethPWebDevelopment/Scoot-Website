@@ -831,6 +831,12 @@ button > h4 {
     margin-top: 1.5rem;
   }
 
+  /* About Section 3 Tablet  */
+
+  #about-section-3 {
+    padding: 0rem 3rem;
+  }
+
   /* About Section 4 Tablet */
 
   .about-section-4-h3 {
@@ -840,5 +846,15 @@ button > h4 {
 
   #section-5-content > h1 {
     text-align: center;
+  }
+
+  /* Careers Job Board Section Tablet */
+
+  .job-postings {
+    width: 90%;
+  }
+
+  #job-board > .container-fluid {
+    padding: 2.5rem 3rem;
   }
 }
