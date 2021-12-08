@@ -848,6 +848,13 @@ button > h4 {
     text-align: center;
   }
 
+  /* Careers Header Tablet */
+
+  #locations-careers-header {
+    background-image: url("assets/images/careers-locations-hero-tablet.jpg");
+    background-size: cover;
+  }
+
   /* Careers Job Board Section Tablet */
 
   .job-postings {
@@ -856,5 +863,57 @@ button > h4 {
 
   #job-board > .container-fluid {
     padding: 2.5rem 3rem;
+  }
+
+  /* Locations Section 1 Tablet */
+
+  #locations-map {
+    content: url("assets/images/world-map-tablet.png");
+  }
+
+  .locations-div {
+    width: 17%;
+    height: 7%;
+  }
+
+  .locations-div > h4 {
+    font-size: 18px;
+  }
+
+  #map-container {
+    padding: 0rem 2.7rem;
+  }
+
+  #locations-div-1 {
+    top: 25.5%;
+  }
+
+  #locations-div-2 {
+    top: 23%;
+    right: 47%;
+  }
+
+  #locations-div-3 {
+    top: 31%;
+    right: 10%;
+  }
+
+  #locations-div-4 {
+    top: 52.5%;
+    right: 16%;
+  }
+
+  .locations-div::after {
+    top: 78%;
+  }
+
+  /* Locations Section 2 Tablet */
+  #city-listed-div,
+  #locations-section-2-p {
+    text-align: center;
+  }
+
+  #locations-section-2-p {
+    margin-bottom: 2.5rem;
   }
 }
