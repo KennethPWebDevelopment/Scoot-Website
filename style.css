@@ -1178,4 +1178,56 @@ button > h4 {
     width: 1.7rem;
     margin: 0rem 0.8rem;
   }
+
+  /* about.html - mobile */
+
+  /* about.html header mobile */
+
+  #about-header-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  #about-header-circles {
+    display: none;
+  }
+
+  /* about.html section 1 mobile */
+
+  #about-section-1-arrow {
+    left: 6%;
+  }
+
+  #about-section-1 > .container-fluid > .row > #section-2-content > p {
+    margin-bottom: 0px;
+  }
+
+  /* about.html section 2 mobile */
+
+  #about-section-2-circle {
+    display: none;
+  }
+
+  #about-section-2-right-arrow {
+    top: 1%;
+    left: -15%;
+  }
+
+  /* about.html section 3 mobile */
+
+  #about-section-3-h2 {
+    margin-bottom: 4rem;
+  }
+
+  #about-section-3 > .container-fluid {
+    padding: 0rem 0.5rem;
+  }
+
+  #section-5 {
+    margin-top: 0rem;
+  }
+
+  #section-5-content > h1 {
+    font-size: 2.4rem;
+  }
 }
