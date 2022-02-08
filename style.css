@@ -636,6 +636,12 @@ button > h4 {
   right: 21.3%;
 }
 
+/* locations headers for mobile */
+
+#mobile-location-headers {
+  display: none;
+}
+
 /* locations section 2 */
 
 #locations-section-2 {
@@ -1276,5 +1282,37 @@ button > h4 {
 
   .job-postings-button {
     width: 100%;
+  }
+
+  /* locations.html mobile */
+
+  /* locations.html map section mobile */
+
+  .locations-div {
+    display: none;
+  }
+
+  #locations-map {
+    content: url("assets/images/world-map-mobile.png");
+  }
+
+  #mobile-location-headers {
+    display: block;
+  }
+  .location-headers {
+    text-align: center;
+    background-color: #fff4df;
+    width: 83%;
+    margin: 1rem auto;
+    padding: 1.2rem 0rem;
+  }
+
+  /* locations section 2 mobile */
+
+  #city-listed-div {
+    padding: 4rem 0rem 0rem 0rem;
+  }
+  #locations-section-2-p {
+    padding: 0px;
   }
 }
